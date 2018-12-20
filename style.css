@@ -1,3 +1,7 @@
+/* {
+  border: 1px solid black;
+} */
+/* Developed mobile first */
 body {
   margin: 0px;
   color: #333333;
@@ -7,21 +11,56 @@ body {
 header {
   text-align: center;
   width: 100%;
-  height: 30em;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-image: url('clean-clear-cold.jpg');
 }
+/* -------------------------------------------------------- Header nav bars CSS */
 nav {
   background-color: white;
 }
 ul {
   padding: 0px;
+  margin: 0px;
 }
 ul>li {
   list-style: none;
+  padding: 0.3em;
 }
 ul>li>a {
   text-decoration: none;
+  color: #333333;
+}
+/* -------------------------------------------------------- Header form CSS */
+form {
+  height: 15em;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url('clean-clear-cold.jpg');
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+form>p{
+  color: white;
+  padding: 0.5em;
+  font-family: Candara, Helvetica, sans-serif;
+  font-size: 1.5em;
+  text-transform: capitalize;
+  text-shadow:0 0 5px #333333;
+  margin: 0px;
+}
+form>input {
+  margin: 0.2em;
+  font-size: 1em;
+}
+#email {
+  width: 80%;
+}
+#submit {
+  width: 50%;
+}
+#submit, #email {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.2em;
+  text-align: center;
 }
