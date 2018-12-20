@@ -27,6 +27,12 @@ ul>li {
 ul>li>a {
   text-decoration: none;
   color: #333333;
+  display: block;
+  width: 100%;
+}
+/* -------------------------------------------------------- Nav Bar Link Hover CSS */
+.nav-link:hover {
+  background-color: #8FBBE4;
 }
 /* -------------------------------------------------------- Header form CSS */
 form {
