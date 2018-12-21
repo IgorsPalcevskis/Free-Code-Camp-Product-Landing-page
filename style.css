@@ -40,7 +40,7 @@ form {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: url('clean-clear-cold.jpg');
+  background-image: url('https://res.cloudinary.com/db6e0gluw/image/upload/c_scale,w_1024/v1545355629/FCC/Front%20End%20Projects/Product%20landing%20page/clean-clear-cold.jpg');
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -69,4 +69,12 @@ form>input {
   margin-right: auto;
   padding: 0.2em;
   text-align: center;
+}
+/* -------------------------------------------------------- video CSS */
+video {
+  width: 100%;
+}
+/* -------------------------------------------------------- product info CSS */
+div>img {
+  width: 100%;
 }
