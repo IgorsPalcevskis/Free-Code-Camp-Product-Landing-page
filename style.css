@@ -6,7 +6,6 @@ body {
   margin: 0px;
   color: #333333;
   font-family: Helvetica, sans-serif;
-  font-size: 24px;
 }
 header {
   text-align: center;
@@ -29,6 +28,7 @@ ul>li>a {
   color: #333333;
   display: block;
   width: 100%;
+  font-size: 1.3rem;
 }
 /* -------------------------------------------------------- Nav Bar Link Hover CSS */
 .nav-link:hover {
@@ -69,6 +69,20 @@ form>input {
   margin-right: auto;
   padding: 0.2rem;
   text-align: center;
+}
+/* -------------------------------------------------------- info sections CSS */
+section>h1 {
+  font-weight: normal;
+  font-size: 1.8rem;
+  text-align: justify;
+  padding: 1rem;
+  color: black;
+}
+#info-section>p {
+  font-size: 1.3rem;
+  padding: 1rem;
+  margin: 1rem;
+  text-align: justify;
 }
 /* -------------------------------------------------------- video CSS */
 video {
