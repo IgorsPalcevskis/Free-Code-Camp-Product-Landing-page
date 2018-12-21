@@ -78,10 +78,18 @@ section>h1 {
   padding: 1rem;
   color: black;
 }
-#info-section>p {
+#info-section>div {
+  margin: 1rem;
+}
+#info-section>div>h3 {
   font-size: 1.3rem;
   padding: 1rem;
-  margin: 1rem;
+  text-align: center;
+  border-bottom: 2px solid #333333;
+}
+#info-section>div>p {
+  font-size: 1.3rem;
+  padding: 1rem;
   text-align: justify;
 }
 /* -------------------------------------------------------- video CSS */
