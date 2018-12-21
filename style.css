@@ -22,7 +22,7 @@ ul {
 }
 ul>li {
   list-style: none;
-  padding: 0.3em;
+  padding: 0.3rem;
 }
 ul>li>a {
   text-decoration: none;
@@ -36,7 +36,7 @@ ul>li>a {
 }
 /* -------------------------------------------------------- Header form CSS */
 form {
-  height: 15em;
+  height: 20rem;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -47,16 +47,16 @@ form {
 }
 form>p{
   color: white;
-  padding: 0.5em;
+  padding: 0.5rem;
   font-family: Candara, Helvetica, sans-serif;
-  font-size: 1.5em;
+  font-size: 2rem;
   text-transform: capitalize;
   text-shadow:0 0 5px #333333;
   margin: 0px;
 }
 form>input {
-  margin: 0.2em;
-  font-size: 1em;
+  margin: 0.2rem;
+  font-size: 1.3rem;
 }
 #email {
   width: 80%;
@@ -67,7 +67,7 @@ form>input {
 #submit, #email {
   margin-left: auto;
   margin-right: auto;
-  padding: 0.2em;
+  padding: 0.2rem;
   text-align: center;
 }
 /* -------------------------------------------------------- video CSS */
