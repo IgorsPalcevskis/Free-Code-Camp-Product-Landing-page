@@ -71,37 +71,54 @@ form>input {
   padding: 0.2rem;
   text-align: center;
 }
-/* -------------------------------------------------------- info sections CSS */
-section>h1 {
+/* -------------------------------------------------------- info and product info sections CSS */
+section>h1, #product-section>h2 { /* includes main header from product section */
   font-weight: normal;
   font-size: 1.8rem;
   text-align: justify;
   padding: 1rem;
   color: black;
 }
-#info-section>div {
+section>div {
   margin: 1rem;
   box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
 }
 #info-section>div>h3 {
+  border-bottom: 2px solid #333333;
+}
+section>div>h3 {
   display: block;
   margin: auto;
   font-size: 1.3rem;
   padding: 1rem;
   text-align: center;
-  border-bottom: 2px solid #333333;
   width: 80%;
 }
-#info-section>div>p {
+section>p, section>div>p {
   font-size: 1.3rem;
   padding: 1rem;
   text-align: justify;
+}
+div>img {
+  width: 100%;
 }
 /* -------------------------------------------------------- video CSS */
 video {
   width: 100%;
 }
-/* -------------------------------------------------------- product info CSS */
-div>img {
-  width: 100%;
+/* -------------------------------------------------------- footer CSS */
+footer {
+  text-align: center;
+}
+footer>p>a:link {
+  text-decoration: underline;
+  color: black;
+}
+footer>p>a:visited {
+  text-decoration: underline;
+  color: black;
+}
+footer>p>a:hover {
+  text-decoration: none;
+  color: #333333;
 }
