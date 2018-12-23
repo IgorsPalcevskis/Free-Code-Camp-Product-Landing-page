@@ -17,7 +17,7 @@ header {
 }
 /* -------------------------------------------------------- Header nav bars CSS */
 nav {
-  background-color: white;
+  background-color: #d6e6f5;
 }
 ul {
   padding: 0px;
@@ -35,6 +35,9 @@ ul>li>a {
   font-size: 1.3rem;
 }
 /* -------------------------------------------------------- Nav Bar Link Hover CSS */
+.nav-link {
+  transition: background-color 0.5s ease;
+}
 .nav-link:hover {
   background-color: #8FBBE4;
 }
@@ -113,6 +116,11 @@ video {
 /* -------------------------------------------------------- footer CSS */
 footer {
   text-align: center;
+  background-color: #d6e6f5;
+}
+footer>p {
+  margin: 0px;
+  padding: 1rem;
 }
 footer>p>a:link {
   text-decoration: underline;
