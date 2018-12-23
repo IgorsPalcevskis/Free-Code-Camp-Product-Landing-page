@@ -11,6 +11,10 @@ header {
   text-align: center;
   width: 100%;
 }
+/* -------------------------------------------------------- Header img CSS */
+#header-img {
+  width: 50%;
+}
 /* -------------------------------------------------------- Header nav bars CSS */
 nav {
   background-color: white;
@@ -72,7 +76,7 @@ form>input {
   text-align: center;
 }
 /* -------------------------------------------------------- info and product info sections CSS */
-section>h1, #product-section>h2 { /* includes main header from product section */
+section>h1, #product-section>h2 {
   font-weight: normal;
   font-size: 1.8rem;
   text-align: justify;
