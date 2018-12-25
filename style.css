@@ -109,12 +109,21 @@ section>p, section>div>p {
 div>img {
   width: 100%;
 }
+.product-link-container {
+  margin: 0;
+  text-align: center;
+}
 .link-to-products {
+  color: #333333;
   display: block;
+  margin: auto;
   text-decoration: none;
   width: 50%;
-  margin-bottom: 1rem;
   padding: 1rem;
+  background-color: #d6e6f5;
+  transition: background-color 0.5s ease;
+}
+.link-to-products:hover {
   background-color: #8FBBE4;
 }
 /* -------------------------------------------------------- video CSS */
