@@ -18,6 +18,9 @@ header {
 /* -------------------------------------------------------- Header nav bars CSS */
 nav {
   background-color: #d6e6f5;
+  position: fixed;
+  top: 0px;
+  width: 100%;
 }
 ul {
   padding: 0px;
