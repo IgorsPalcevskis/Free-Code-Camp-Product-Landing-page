@@ -14,6 +14,7 @@ header {
 /* -------------------------------------------------------- Header img CSS */
 #header-img {
   width: 50%;
+  height: 5rem;
 }
 /* -------------------------------------------------------- Header nav bars CSS */
 nav {
@@ -46,6 +47,7 @@ ul>li>a {
 }
 /* -------------------------------------------------------- Header form CSS */
 form {
+  margin-top: 8.1rem;
   height: 20rem;
   background-repeat: no-repeat;
   background-position: center;
