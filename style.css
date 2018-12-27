@@ -82,6 +82,17 @@ form>input {
   margin-right: auto;
   padding: 0.2rem;
   text-align: center;
+  color: #333333;
+}
+#submit {
+  background-color:#d6e6f5;
+  border: none;
+  padding: 0.5rem;
+  margin-top:0.5rem;
+  transition: background-color 0.5s ease;
+}
+#submit:hover {
+  background-color: #8FBBE4;
 }
 /* -------------------------------------------------------- info and product info sections CSS */
 section>h1, #product-section>h2 {
