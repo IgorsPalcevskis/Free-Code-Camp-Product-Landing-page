@@ -167,3 +167,7 @@ footer>p>a:hover {
   text-decoration: none;
   color: #333333;
 }
+/* -------------------------------------------------------- For screens wider then 1024px */
+@media only screen and (min-width: 1024px) {
+
+}
