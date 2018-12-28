@@ -169,5 +169,15 @@ footer>p>a:hover {
 }
 /* -------------------------------------------------------- For screens wider then 1024px */
 @media only screen and (min-width: 1024px) {
-
+/* -------------------------------------------------------- Header nav bars CSS */
+#nav-bar {
+  display: flex;
+}
+ul {
+  display: flex;
+}
+/* -------------------------------------------------------- Header img CSS */
+#header-img {
+  width: 30%;
+}
 }
