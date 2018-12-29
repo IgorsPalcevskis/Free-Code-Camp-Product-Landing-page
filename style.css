@@ -40,7 +40,7 @@ ul>li>a {
 }
 /* -------------------------------------------------------- Nav Bar Link Hover CSS */
 .nav-link {
-  transition: background-color 0.5s ease;
+  transition: background-color 0.3s ease;
 }
 .nav-link:hover {
   background-color: #8FBBE4;
@@ -89,7 +89,7 @@ form>input {
   border: none;
   padding: 0.5rem;
   margin-top:0.5rem;
-  transition: background-color 0.5s ease;
+  transition: background-color 0.3s ease;
 }
 #submit:hover {
   background-color: #8FBBE4;
@@ -137,7 +137,7 @@ div>img {
   width: 50%;
   padding: 1rem;
   background-color: #d6e6f5;
-  transition: background-color 0.5s ease;
+  transition: background-color 0.3s ease;
 }
 .link-to-products:hover {
   background-color: #8FBBE4;
@@ -167,17 +167,24 @@ footer>p>a:hover {
   text-decoration: none;
   color: #333333;
 }
-/* -------------------------------------------------------- For screens wider then 1024px */
+/* ---------------------------------------------------------------------------------------------------- For screens wider then 1024px */
 @media only screen and (min-width: 1024px) {
 /* -------------------------------------------------------- Header nav bars CSS */
 #nav-bar {
   display: flex;
+  justify-content: space-between;
 }
 ul {
   display: flex;
+  align-items: center;
+  width: 30%;
 }
 /* -------------------------------------------------------- Header img CSS */
 #header-img {
   width: 30%;
+}
+/* -------------------------------------------------------- Header form CSS */
+form {
+  margin-top: 5rem;
 }
 }
