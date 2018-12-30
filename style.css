@@ -187,4 +187,8 @@ ul {
 form {
   margin-top: 5rem;
 }
+/* -------------------------------------------------------- info and product info sections CSS */
+.info-details-container {
+  display: flex;
+}
 }
