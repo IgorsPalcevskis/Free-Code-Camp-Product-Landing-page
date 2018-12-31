@@ -102,14 +102,14 @@ section>h1, #product-section>h2 {
   padding: 1rem;
   color: black;
 }
-section>div {
+.info-details-container>div {
   margin: 1rem;
   box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
 }
-#info-section>div>h3 {
+#info-section>.info-details-container>div>h3 {
   border-bottom: 2px solid #333333;
 }
-section>div>h3 {
+.info-details-container>div>h3 {
   display: block;
   margin: auto;
   font-size: 1.3rem;
@@ -117,7 +117,7 @@ section>div>h3 {
   text-align: center;
   width: 80%;
 }
-section>p, section>div>p {
+section>p, .section-paragraphs {
   font-size: 1.3rem;
   padding: 1rem;
   text-align: justify;
