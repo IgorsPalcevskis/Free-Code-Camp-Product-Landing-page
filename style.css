@@ -192,3 +192,11 @@ form {
   display: flex;
 }
 }
+/* ---------------------------------------------------------------------------------------------------- For screens wider then 1366px */
+@media only screen and (min-width: 1366px) {
+  form, main {
+    width: 1366px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
