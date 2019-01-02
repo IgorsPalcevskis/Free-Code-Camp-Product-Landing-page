@@ -209,10 +209,10 @@ video {
   display: flex;
 }
 }
-/* ---------------------------------------------------------------------------------------------------- For screens wider than 1366px */
-@media only screen and (min-width: 1366px) {
+/* ---------------------------------------------------------------------------------------------------- For screens wider than 1280px */
+@media only screen and (min-width: 1280px) {
   form, main {
-    width: 1366px;
+    width: 1280px;
     margin-left: auto;
     margin-right: auto;
   }
