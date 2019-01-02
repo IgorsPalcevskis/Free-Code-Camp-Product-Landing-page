@@ -167,7 +167,7 @@ footer>p>a:hover {
   text-decoration: none;
   color: #333333;
 }
-/* ---------------------------------------------------------------------------------------------------- For screens wider then 1024px */
+/* ---------------------------------------------------------------------------------------------------- For screens wider than 1024px */
 @media only screen and (min-width: 1024px) {
 /* -------------------------------------------------------- Header nav bars CSS */
 #nav-bar {
@@ -186,6 +186,12 @@ ul {
 /* -------------------------------------------------------- Header form CSS */
 form {
   margin-top: 5rem;
+}
+#email {
+  width: 40%;
+}
+#submit {
+  width: 20%;
 }
 /* -------------------------------------------------------- info and product info sections CSS */
 .info-details-container {
