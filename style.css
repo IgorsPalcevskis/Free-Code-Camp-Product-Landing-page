@@ -197,12 +197,19 @@ form {
 #submit {
   width: 20%;
 }
+/* -------------------------------------------------------- video CSS */
+video {
+  display: block;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
 /* -------------------------------------------------------- info and product info sections CSS */
 .info-details-container {
   display: flex;
 }
 }
-/* ---------------------------------------------------------------------------------------------------- For screens wider then 1366px */
+/* ---------------------------------------------------------------------------------------------------- For screens wider than 1366px */
 @media only screen and (min-width: 1366px) {
   form, main {
     width: 1366px;
