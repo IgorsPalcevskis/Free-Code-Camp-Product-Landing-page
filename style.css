@@ -179,6 +179,10 @@ ul {
   align-items: center;
   width: 30%;
 }
+ul>li {
+  flex-grow: 1;
+  flex-basis: 0;
+}
 /* -------------------------------------------------------- Header img CSS */
 #header-img {
   width: 30%;
