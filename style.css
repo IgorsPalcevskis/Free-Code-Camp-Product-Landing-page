@@ -205,6 +205,9 @@ video {
   margin-right: auto;
 }
 /* -------------------------------------------------------- info and product info sections CSS */
+section>h1, #product-section>h2, section>p {
+  text-align: center;
+}
 .info-details-container {
   display: flex;
 }
