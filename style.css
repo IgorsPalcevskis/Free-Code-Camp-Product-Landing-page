@@ -22,6 +22,7 @@ nav {
   position: fixed;
   top: 0px;
   width: 100%;
+  z-index: 100;
 }
 ul {
   padding: 0px;
@@ -37,6 +38,12 @@ ul>li>a {
   display: block;
   width: 100%;
   font-size: 1.3rem;
+}
+a.anchor {
+  display: block; 
+  position: relative; 
+  top: -12rem;
+  visibility: hidden;
 }
 /* -------------------------------------------------------- Nav Bar Link Hover CSS */
 .nav-link {
@@ -145,6 +152,7 @@ div>img {
 /* -------------------------------------------------------- video CSS */
 video {
   width: 100%;
+  z-index: -100;
 }
 /* -------------------------------------------------------- footer CSS */
 footer {
@@ -182,6 +190,9 @@ ul {
 ul>li {
   flex-grow: 1;
   flex-basis: 0;
+}
+a.anchor {
+  top: -5.5rem;
 }
 /* -------------------------------------------------------- Header img CSS */
 #header-img {
