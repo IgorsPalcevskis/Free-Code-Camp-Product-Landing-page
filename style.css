@@ -46,10 +46,10 @@ a.anchor {
   visibility: hidden;
 }
 /* -------------------------------------------------------- Nav Bar Link Hover CSS */
-.nav-link {
+.nav-link-button {
   transition: background-color 0.3s ease;
 }
-.nav-link:hover {
+.nav-link-button:hover {
   background-color: #8FBBE4;
 }
 /* -------------------------------------------------------- Header form CSS */
